@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-y6=(isvs^r=7#ko!*%%5uw5(9-kq30_bnqa36_pvs%&371ynh)
 DEBUG = True
 
 ALLOWED_HOSTS = ["128.199.112.68", "x9bet.net"]
-
+CSRF_TRUSTED_ORIGINS = ["128.199.112.68", "x9bet.net"]
 
 # Application definition
 
