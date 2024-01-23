@@ -7,4 +7,4 @@ services:
     volumes:
       - ./db/:/app/db
     ports:
-      - 33333:8000
+      - 80:8000
