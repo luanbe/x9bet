@@ -1,1 +1,2 @@
 0 * * * * python3 /app/manage.py crawl_page >> /var/log/cron.log 2>&1
+
