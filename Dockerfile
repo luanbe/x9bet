@@ -2,7 +2,7 @@
 FROM python:3.11
 
 # set work directory
-WORKDIR ./
+WORKDIR /app
 
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
